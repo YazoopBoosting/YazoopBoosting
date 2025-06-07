@@ -10,38 +10,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.home {
-    background-image: url('banner.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* or any height you want */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white; /* Make text visible on image */
-    position: relative;
-    text-align: center;
-}
-
-.home .max-width {
-    width: 100%;
-}
-
-.home-content {
-    z-index: 2;
-}
-
-.home::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Optional: dark overlay for better text contrast */
-    z-index: 1;
-}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -191,7 +159,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
